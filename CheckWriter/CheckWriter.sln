@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckWriter", "CheckWriter\CheckWriter.csproj", "{80D1A2D5-DEB4-48FA-887F-2F91D9E56BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeUtilityProject", "SomeUtilityProject\SomeUtilityProject.csproj", "{1C91B600-1C11-4FC2-9385-8A1820730949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D1A2D5-DEB4-48FA-887F-2F91D9E56BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D1A2D5-DEB4-48FA-887F-2F91D9E56BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D1A2D5-DEB4-48FA-887F-2F91D9E56BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D1A2D5-DEB4-48FA-887F-2F91D9E56BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C91B600-1C11-4FC2-9385-8A1820730949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C91B600-1C11-4FC2-9385-8A1820730949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C91B600-1C11-4FC2-9385-8A1820730949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C91B600-1C11-4FC2-9385-8A1820730949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

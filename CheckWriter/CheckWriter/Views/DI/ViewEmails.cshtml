@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "ViewEmails";
+}
+
+<h2>Email List</h2>
+
+<ul>
+
+   
+        @foreach (var email in Model) {
+        <li>@email</li>
+        }
+    
+</ul>
+
+
+<style type="text/css">
+    #cnn_hdr-main {
+        background-color: #A20C1F;
+        background-image: linear-gradient(to top, #920000, #D60000,#D60089);
+        border-bottom: 1px solid #C80012;
+        min-height: 400px;
+    }
+</style>
+
+<div id="cnn_hdr-main">
+
+
+    <h2>@Html.ActionLink("Admin", "Index", "Admin", new { area = "Admin" }, null)</h2>
+
+</div>
+

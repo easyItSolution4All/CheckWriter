@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+@{
+    
+    
+    var messageFromViewBag = ViewBag.Message != null ?(string) ViewBag.Message : "";
+}
+
+
+<h2>@messageFromViewBag</h2>
+<ul>
+    <li><@Html.ActionLink("View Mail List", "ViewEmails")</li>
+</ul>
